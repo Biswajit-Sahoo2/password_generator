@@ -11,9 +11,11 @@ function App() {
     let pass = ""
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     if (numberAllowed) {
+      //If number allowed,then add numbers to str
       str += "0123456789";
     }
     if (charAllowed) {
+      //If characters allowed add special characters to str
       str += "@#!%$&*_`<>";
     }
     for (let i = 1; i <= length; i++) {
