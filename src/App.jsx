@@ -19,10 +19,12 @@ function App() {
     let str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     // If numbers are allowed, add them to the character set
     if (numberAllowed) {
+      //If number allowed,then add numbers to str
       str += "0123456789";
     }
     // If special characters are allowed, add them to the character set
     if (charAllowed) {
+      //If characters allowed add special characters to str
       str += "@#!%$&*_`<>";
     }
     // Generate the password by randomly selecting characters from the character set
